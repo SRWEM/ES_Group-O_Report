@@ -1,0 +1,189 @@
+\documentclass[a4paper]{article}
+
+% --------------------------------------------------
+% Encoding (wichtig für pdfLaTeX)
+% --------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% --------------------------------------------------
+% Schrift (Alternative zu Mulish)
+% --------------------------------------------------
+\usepackage{tgheros} % modern, clean sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+
+% --------------------------------------------------
+% Mathematics & Science
+% --------------------------------------------------
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{chemformula}
+\usepackage{bigints}
+\usepackage[official]{eurosym}
+
+\numberwithin{equation}{subsection}
+
+% --------------------------------------------------
+% Graphics & Figures
+% --------------------------------------------------
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{caption}
+\captionsetup[subfigure]{justification=centering}
+\usepackage[justification=centering]{caption}
+\usepackage{sidecap}
+
+% --------------------------------------------------
+% Tables
+% --------------------------------------------------
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+
+% --------------------------------------------------
+% Lists & Code
+% --------------------------------------------------
+\usepackage{enumitem}
+\usepackage{listings}
+
+% --------------------------------------------------
+% Misc
+% --------------------------------------------------
+\usepackage{subfiles}
+\usepackage{pdfpages}
+\usepackage{comment}
+\usepackage{textgreek}
+\usepackage{cite}
+
+% --------------------------------------------------
+% Colors
+% --------------------------------------------------
+\usepackage{xcolor}
+
+\definecolor{TUred}{RGB}{196,30,58}
+
+% --------------------------------------------------
+% Hyperlinks
+% --------------------------------------------------
+\usepackage[
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=TUred,
+    urlcolor=TUred
+]{hyperref}
+
+% --------------------------------------------------
+% Layout
+% --------------------------------------------------
+\usepackage[rmargin=2cm,lmargin=2cm,tmargin=2.5cm]{geometry}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+% --------------------------------------------------
+% Section formatting
+% --------------------------------------------------
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\Large\bfseries\color{TUred}}
+{\thesection}
+{1em}
+{}
+
+\titleformat{\subsection}
+{\large\bfseries\color{TUred}}
+{\thesubsection}
+{1em}
+{}
+
+\titleformat{\subsubsection}
+{\normalsize\bfseries\color{TUred}}
+{\thesubsubsection}
+{1em}
+{}
+
+% --------------------------------------------------
+% TikZ
+% --------------------------------------------------
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=gray!20]
+\tikzstyle{process}   = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!10]
+\tikzstyle{decision}  = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!10]
+\tikzstyle{arrow}     = [thick,->,>=stealth]
+
+% --------------------------------------------------
+% Units
+% --------------------------------------------------
+\DeclareSIUnit{\wattpeak}{Wp}
+
+% --------------------------------------------------
+% Header / Footer
+% --------------------------------------------------
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[C]{\color{TUred}Energy Systems -- Group Project}
+\fancyfoot[C]{\color{TUred}Summer Semester 2026}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% --------------------------------------------------
+% Boxes
+% --------------------------------------------------
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+\newtcolorbox{notebox}{
+    colback=gray!10!white,
+    colframe=gray!80!black,
+    title=Note,
+    breakable
+}
+
+\newtcolorbox{commentbox}{
+    colback=red!5!white,
+    colframe=TUred,
+    title=Comment,
+    breakable
+}
+
+\newtcolorbox{cautionbox}{
+    colback=yellow!5!white,
+    colframe=yellow!75!black,
+    title=Caution,
+    breakable
+}
+
+% --------------------------------------------------
+% Document
+% --------------------------------------------------
+\begin{document}
+
+\input{Frontpage}
+
+\newpage
+\setcounter{page}{1}
+
+\input{Tasks/Task1}
+\newpage
+\input{Tasks/Task2}
+
+%\newpage
+%\addcontentsline{toc}{section}{References}
+%\bibliographystyle{unsrt}
+%\bibliography{Bibliography}
+
+%\newpage
+%\appendix
+%\input{Appendix}
+
+\end{document}
