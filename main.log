@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.11)  14 JUN 2026 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.11)  14 JUN 2026 00:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1472,16 +1472,12 @@ File: Images/2b_price_comparison.png Graphic file (type png)
 <use Images/2b_price_comparison.png>
 Package pdftex.def Info: Images/2b_price_comparison.png  used on input line 49.
 (pdftex.def)             Requested size: 362.77264pt x 225.39958pt.
-
-
-LaTeX Warning: Reference `tab:2c_line_shadow' on page 7 undefined on input line 65.
-
-<Images/2c_line_shadow.png, id=97, 498.06075pt x 354.123pt>
+<Images/2c_line_shadow.png, id=98, 498.06075pt x 354.123pt>
 File: Images/2c_line_shadow.png Graphic file (type png)
 <use Images/2c_line_shadow.png>
 Package pdftex.def Info: Images/2c_line_shadow.png  used on input line 69.
 (pdftex.def)             Requested size: 314.40001pt x 223.54715pt.
-[7 <./Images/2a_nodal_prices.png>] [8 <./Images/2b_price_comparison.png> <./Images/2c_line_shadow.png>])
+ [7 <./Images/2a_nodal_prices.png>] [8 <./Images/2b_price_comparison.png> <./Images/2c_line_shadow.png>])
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 35.
 See the caption package documentation for explanation.
@@ -1491,25 +1487,21 @@ See the caption package documentation for explanation.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 87808A09F4DABFC9CBD19488E80A962D;482.
  ) 
 Here is how much of TeX's memory you used:
- 40013 strings out of 467509
- 847925 string characters out of 5408780
- 1243997 words of memory out of 5000000
- 68612 multiletter control sequences out of 15000+600000
- 676669 words of font info for 108 fonts, out of 8000000 for 9000
+ 40015 strings out of 467509
+ 847953 string characters out of 5408780
+ 1244091 words of memory out of 5000000
+ 68613 multiletter control sequences out of 15000+600000
+ 679666 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,118p,516b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on main.pdf (10 pages, 791834 bytes).
+Output written on main.pdf (10 pages, 793741 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 

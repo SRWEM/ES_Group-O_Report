@@ -7,7 +7,7 @@
 The nodal electricity price at each node $n$ and time step $t$ is derived from the dual variable $\mu_n(t)$ of the power balance constraint, divided by the time resolution $\Delta t = 3\,\text{h}$:
 
 \begin{equation*}
-    \lambda_n(t) = \frac{\mu_n(t)}{\Delta t} \qquad [\text{EUR/MWh}]
+    \lambda_n(t) = \frac{\mu_n(t)}{\Delta t} \qquad \left[\frac{\text{EUR}}{\text{MWh}}\right]
 \end{equation*}
 
 The demand-weighted average price for each region is then computed as:
@@ -26,13 +26,13 @@ The demand-weighted average price for each region is then computed as:
 \end{figure}
 
 The price duration curve shows the nodal price for each share of the time, sorted from high to low.
-For example, in roughly the most expensive fifth of the hours the price is above $100$\,EUR/MWh. 
-The dual variable of the nodal energy balance represents the marginal cost of supplying one additional MWh at the respective node, i.e.\ the local electricity price (EUR/MWh).
+For example, in roughly the most expensive fifth of the hours the price is above $100\,\frac{\text{EUR}}{\text{MWh}}$. 
+The dual variable of the nodal energy balance represents the marginal cost of supplying one additional MWh at the respective node, i.e.\ the local electricity price ($\frac{\text{EUR}}{\text{MWh}}$).
 Weighting it by the nodal demand gives the average price paid by consumers in that region over the modelled period. \\
 The prices differ between the two regions because each node draws on a different local resource mix.
 Scarcity hours are about equally frequent in both regions, the difference is at the low end. In scenario B (no line), the regions are fully decoupled and each forms its own price independently.
 The south relies exclusively on solar generation, which produces large midday surpluses at near-zero marginal cost.
-During these hours the price drops to almost zero, pulling the demand-weighted average down significantly. The north has a tighter wind-solar mix with almost no surplus hours, so a technology with positive variable cost (wind, at $1.62$\,EUR/MWh) sets the price during most time steps, resulting in a higher average.
+During these hours the price drops to almost zero, pulling the demand-weighted average down significantly. The north has a tighter wind-solar mix with almost no surplus hours, so a technology with positive variable cost (wind, at $1.62\,\frac{\text{EUR}}{\text{MWh}}$) sets the price during most time steps, resulting in a higher average.
 In scenario A (line), the two prices are coupled during hours in which the line operates at full capacity, which flattens the duration curves and brings the regional averages closer together. \\
 The highest price values are observed during dark-lull hours when neither wind nor solar generation is available.
 In these scarcity periods the only remaining dispatchable source is the H\textsubscript{2} fuel cell, whose dispatch sets the marginal price. In scenario B the extreme price peaks occur in the south, as a solar-only region it is most exposed when there is no sunshine.
@@ -71,12 +71,26 @@ The shadow price of the line capacity constraint is obtained by summing the dual
     \label{fig:2c_line}
 \end{figure}
 
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{l r}
+        \hline
+        Scenario    & Shadow price [$\frac{\text{kEUR}}{\text{MW}}$] \\
+        \hline
+        A (line)    & $\approx -11$                                  \\
+        B (no line) & $\approx -59$                                  \\
+        \hline
+    \end{tabular}
+    \caption{Shadow price of the line capacity constraint for both scenarios.}
+    \label{tab:2c_line_shadow}
+\end{table}
+
 The shadow price represents the congestion rent: how much the total system cost would drop if the line could carry one more MW.
 It corresponds to the price difference between north and south in the hours when the line is operating at its capacity limit. \\
-In scenario A (line), the shadow price is small (about $-11$\,kEUR/MW).
+In scenario A (line), the shadow price is small (about $-11\,\frac{\text{kEUR}}{\text{MW}}$).
 Since the model is free to optimise the line capacity, it expands the line until the marginal benefit of one additional MW equals its annualised investment cost, so the residual marginal value is close to zero by construction. \\
 In scenario B (no line), the line capacity is forced to zero.
-The no-line constraint reflects the value of the very first MW of interconnection (about $-59$\,kEUR/MW).
+The no-line constraint reflects the value of the very first MW of interconnection (about $-59\,\frac{\text{kEUR}}{\text{MW}}$).
 This value is roughly $5.6$ times larger than the marginal value in scenario A, illustrating strongly decreasing returns to interconnection.
 Interconnection is highly valuable, but with clearly decreasing value.
 The first connections yield the greatest cost savings and additional capacity is built only as long as its marginal benefit exceeds its marginal cost.
