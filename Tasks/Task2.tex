@@ -44,13 +44,13 @@ The highest price values are observed during dark-lull hours when neither wind n
 \end{figure}
 
 Consumers in the north benefit more from the transmission line, although both regions gain. The north started with the higher demand-weighted price in scenario B, because its tighter wind-solar mix left it with almost no zero-price hours. The line grants the north access to the south's abundant midday solar surplus and allows it to avoid building as much additional PV and storage capacity, resulting in a larger absolute price reduction. \\
-The south also benefits as it can export its surplus generation instead of curtailing it, and it no longer needs to oversize storage to cover nighttime demand solely from local sources. The line thus balances the two nodal prices and reduces them in both regions, but to a greater extent in the north.
+The south also benefits as it can export its surplus generation instead of curtailing it and it no longer needs to oversize storage to cover nighttime demand solely from local sources. The line thus balances the two nodal prices and reduces them in both regions, but to a greater extent in the north.
 
 \textbf{
     (c) Extract the shadow price of the line capacity constraint in the transmission scenario. What does it represent? In the scenario where the transmission capacity is zero, you can also extract the dual variable. Comparing the two, what does it say about the value of interconnection? (0.5)
     }
 
-The shadow price of the line capacity constraint is obtained by summing the duals of the upper and lower transmission flow constraints over all time steps. \autoref{fig:2c_line} illustrates the comparison between the two scenarios, and \autoref{tab:2c_line_shadow} reports the corresponding numerical values.
+The shadow price of the line capacity constraint is obtained by summing the duals of the upper and lower transmission flow constraints over all time steps. \autoref{fig:2c_line} illustrates the comparison between the two scenarios and \autoref{tab:2c_line_shadow} reports the corresponding numerical values.
 
 \begin{figure}[!htbp]
     \centering
@@ -61,7 +61,7 @@ The shadow price of the line capacity constraint is obtained by summing the dual
 
 The shadow price represents the congestion rent: how much the total system cost would drop if the line could carry one more MW. It corresponds to the price difference between north and south in the hours when the line is operating at its capacity limit. \\
 In scenario A (line), the shadow price is small (about $-11$\,kEUR/MW). Since the model is free to optimise the line capacity, it expands the line until the marginal benefit of one additional MW equals its annualised investment cost, so the residual marginal value is close to zero by construction. \\
-In scenario B (no line), the line capacity is forced to zero. The no-line constraint reflects the value of the very first MW of interconnection (about $-59$\,kEUR/MW). This value is roughly 5.6 times larger than the marginal value in scenario A, illustrating strongly decreasing returns to interconnection. Interconnection is highly valuable, but with clearly decreasing value. The first connections yield the greatest cost savings and additional capacity is built only as long as its marginal benefit exceeds its marginal cost.
+In scenario B (no line), the line capacity is forced to zero. The no-line constraint reflects the value of the very first MW of interconnection (about $-59$\,kEUR/MW). This value is roughly $5.6$ times larger than the marginal value in scenario A, illustrating strongly decreasing returns to interconnection. Interconnection is highly valuable, but with clearly decreasing value. The first connections yield the greatest cost savings and additional capacity is built only as long as its marginal benefit exceeds its marginal cost.
 
 \textbf{
     (d) Which advantages and disadvantages of heavy reliance on cross-regional interconnection does this stylised model not capture? No calculation needed. (0.5)
