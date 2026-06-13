@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1781353896.50554 "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" "main.pdf" "main" 1781353904.66071 0
+["pdflatex"] 1781367535.59605 "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" "main.pdf" "main" 1781367546.79334 0
   "C:/Users/valen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781191941.18989 121619 28cafe8888aecb5d9688fed740e82db1 ""
   "C:/Users/valen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1781190873.29766 13367096 e10dfd0b5a5832acdb356b69a3739b76 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -248,7 +248,7 @@
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "Frontpage.tex" 1781190438.01138 907 40101e1b7d90f5d37b7b259842610f46 ""
+  "Frontpage.tex" 1781364943.92457 913 ab6d48a4e31fcf49f660a5e93c57be23 ""
   "Images/1b_storage dispatch.png" 1781190437.86678 213092 5b1fd69fe1836c739084d4193d904f33 ""
   "Images/1b_wind_solar_dispatch.png" 1781190437.85035 167926 21a4dd6c075a5530b7a027d37496dd94 ""
   "Images/1c_power_cap_vs_energy_cap.png" 1781190437.82406 53493 e000e883fed77efca0c3b77dbef138fe ""
@@ -257,12 +257,13 @@
   "Images/1e_residual_load.png" 1781190437.77652 51957 75954d8fd9b33bb0fb9992d2c1990781 ""
   "Images/2a_nodal_prices.png" 1781350152.00682 53005 f4a646e5fd7a512d388b0f0e85e8f0a1 ""
   "Images/2b_price_comparison.png" 1781350152.0155 29788 ffefe72f2d6eb8f62f50a947600e47fb ""
+  "Images/2c_line_shadow.png" 1781350152.02984 27347 6500cba989631f77f64911436d2aa4ee ""
   "Images/TuBerlin_Logo.png" 1781190437.87936 31657 52fa6747300f5217bee35f1e03383ddd ""
   "Tasks/Task1.tex" 1781353620.93825 13051 9522a4d3f6af69fb8df1f45869ce7186 ""
-  "Tasks/Task2.tex" 1781353886.81351 4717 e43906e98bf98d695eb9c7e53a045646 ""
+  "Tasks/Task2.tex" 1781367518.34196 8219 af073d61e0dac33470bb2f0476018834 ""
   "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" 1781190437.75118 4779 3c642c13f3f397e5e803c56150492329 ""
-  "main.aux" 1781353903.10876 4241 6633da365a943680c6c6e6f29298b479 "pdflatex"
-  "main.out" 1781353903.10876 482 87808a09f4dabfc9cbd19488e80a962d "pdflatex"
+  "main.aux" 1781367545.21971 4580 1e7ec0b46e08f984a87c6eaa4d37065a "pdflatex"
+  "main.out" 1781367545.22361 482 87808a09f4dabfc9cbd19488e80a962d "pdflatex"
   (generated)
   "main.aux"
   "main.log"
