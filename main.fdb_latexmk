@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1781369599.95532 "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" "main.pdf" "main" 1781369607.28417 0
+["pdflatex"] 1781388074.99956 "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" "main.pdf" "main" 1781388082.60776 0
   "C:/Users/valen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781191941.18989 121619 28cafe8888aecb5d9688fed740e82db1 ""
   "C:/Users/valen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1781190873.29766 13367096 e10dfd0b5a5832acdb356b69a3739b76 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -259,11 +259,11 @@
   "Images/2b_price_comparison.png" 1781350152.0155 29788 ffefe72f2d6eb8f62f50a947600e47fb ""
   "Images/2c_line_shadow.png" 1781350152.02984 27347 6500cba989631f77f64911436d2aa4ee ""
   "Images/TuBerlin_Logo.png" 1781190437.87936 31657 52fa6747300f5217bee35f1e03383ddd ""
-  "Tasks/Task1.tex" 1781353620.93825 13051 9522a4d3f6af69fb8df1f45869ce7186 ""
-  "Tasks/Task2.tex" 1781369598.05228 8219 8e7f1980da2184c3195bc2d59228b832 ""
+  "Tasks/Task1.tex" 1781388067.05062 13076 f0d5b9735efe152738f4a91f908873d3 ""
+  "Tasks/Task2.tex" 1781387593.61674 8828 f2dba7418f6716268542a0536779aae9 ""
   "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" 1781190437.75118 4779 3c642c13f3f397e5e803c56150492329 ""
-  "main.aux" 1781369605.95983 4580 1e7ec0b46e08f984a87c6eaa4d37065a "pdflatex"
-  "main.out" 1781369605.96316 482 87808a09f4dabfc9cbd19488e80a962d "pdflatex"
+  "main.aux" 1781388081.0842 4591 7f56601582876b2a77a234b8adb33da5 "pdflatex"
+  "main.out" 1781388081.08729 482 87808a09f4dabfc9cbd19488e80a962d "pdflatex"
   (generated)
   "main.aux"
   "main.log"
