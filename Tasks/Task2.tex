@@ -1,9 +1,54 @@
 \section{Task 2 - Questions on dual solution}
 
-\textbf{(a) For each scenario, extract the shadow variable to the nodal energy balances and weight it by the nodal demand in the north and south, respectively. What do they represent? Why are they different in the two regions? When do you observe the highest values and why? (0.5)}
+\textbf{
+    (a) For each scenario, extract the shadow variable to the nodal energy balances and weight it by the nodal demand in the north and south, respectively. What do they represent? Why are they different in the two regions? When do you observe the highest values and why? (0.5)
+    }
 
-\textbf{(b) In the transmission scenario, consumers of which region benefit more from the transmission line: the north, the south, or both equally? Briefly explain. (0.5)}
+The nodal electricity price at each node $n$ and time step $t$ is derived from the dual variable $\mu_n(t)$ of the power balance constraint, divided by the time resolution $\Delta t = 3\,\text{h}$:
 
-\textbf{(c) Extract the shadow price of the line capacity constraint in the transmission scenario. What does it represent? In the scenario where the transmission capacity is zero, you can also extract the dual variable. Comparing the two, what does it say about the value of interconnection? (0.5)}
+\begin{equation*}
+    \lambda_n(t) = \frac{\mu_n(t)}{\Delta t} \qquad [\text{EUR/MWh}]
+\end{equation*}
 
-\textbf{(d) Which advantages and disadvantages of heavy reliance on cross-regional interconnection does this stylised model not capture? No calculation needed. (0.5)}
+The demand-weighted average price for each region is then computed as:
+
+\begin{equation*}
+    \bar{\lambda}_n = \frac{\displaystyle\sum_t \lambda_n(t)\cdot d_n(t)}{\displaystyle\sum_t d_n(t)}
+\end{equation*}
+
+\autoref{fig:2a_prices} shows the sorted nodal price duration curves for both scenarios and both regions.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=1\linewidth]{Images/2a_nodal_prices.png}
+    \caption{Nodal price duration curves for scenarios A (line) and B (no line) in each region}
+    \label{fig:2a_prices}
+\end{figure}
+
+The dual variable of the nodal energy balance represents the marginal cost of supplying one additional MWh at the respective node, i.e.\ the local electricity price. Weighting it by the nodal demand yields the average price paid by consumers in that region over the modelled period. \\
+The prices differ between the two regions because each node draws on a different local resource mix. In scenario B (no line), the regions are fully decoupled and each forms its own price independently. The south relies exclusively on solar generation, which produces large midday surpluses at near-zero marginal cost. During these hours the price drops to almost zero, pulling the demand-weighted average down significantly. The north maintains a tighter wind-solar mix with almost no surplus hours, so a technology with positive variable cost (wind, at 1.62\,EUR/MWh) sets the price during most time steps, resulting in a consistently higher average. In scenario A (line), the two prices are coupled during hours in which the line operates at full capacity, which flattens the duration curves and brings the regional averages closer together. \\
+The highest price values are observed during dark-lull hours when neither wind nor solar generation is available. In these scarcity periods the only remaining dispatchable source is the H\textsubscript{2} fuel cell, whose dispatch sets the marginal price. In scenario B the extreme price peaks occur in the south, as a solar-only region it is most exposed when there is no sunshine. In scenario A the transmission line couples both nodes during scarcity, so both regions reach the same peak price simultaneously -- the southern extreme is lowered and the northern peak is raised until they converge.
+
+\textbf{
+    (b) In the transmission scenario, consumers of which region benefit more from the transmission line: the north, the south, or both equally? Briefly explain. (0.5)
+    }
+
+\autoref{fig:2b_prices} compares the demand-weighted average nodal prices for both regions across the two scenarios.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.75\linewidth]{Images/2b_price_comparison.png}
+    \caption{Demand-weighted average nodal price per region in scenarios A (line) and B (no line)}
+    \label{fig:2b_prices}
+\end{figure}
+
+Consumers in the north benefit more from the transmission line, although both regions gain. The north started with the higher demand-weighted price in scenario B, because its tighter wind-solar mix left it with almost no zero-price hours. The line grants the north access to the south's abundant midday solar surplus and allows it to avoid building as much additional PV and storage capacity, resulting in a larger absolute price reduction. \\
+The south also benefits: it can export its surplus generation instead of curtailing it, and it no longer needs to oversize storage to cover nighttime demand solely from local sources. The line thus balances the two nodal prices and reduces them in both regions, but to a greater extent in the north.
+
+\textbf{
+    (c) Extract the shadow price of the line capacity constraint in the transmission scenario. What does it represent? In the scenario where the transmission capacity is zero, you can also extract the dual variable. Comparing the two, what does it say about the value of interconnection? (0.5)
+    }
+
+\textbf{
+    (d) Which advantages and disadvantages of heavy reliance on cross-regional interconnection does this stylised model not capture? No calculation needed. (0.5)
+    }

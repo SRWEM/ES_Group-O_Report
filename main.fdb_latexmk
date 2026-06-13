@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1781191947.49654 "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" "main.pdf" "main" 1781191956.28675 0
+["pdflatex"] 1781353896.50554 "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" "main.pdf" "main" 1781353904.66071 0
   "C:/Users/valen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781191941.18989 121619 28cafe8888aecb5d9688fed740e82db1 ""
   "C:/Users/valen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1781190873.29766 13367096 e10dfd0b5a5832acdb356b69a3739b76 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc" 1525740614 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
@@ -49,6 +49,7 @@
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ec-qhvb.tfm" 1256929440 11796 b7bc3db132e822d2872ea50ba8fa7cc0 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ec-qhvr.tfm" 1256929440 12084 374c5b7e91efcc10472ab8e61f66d36b ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ts1-qhvr.tfm" 1256929440 1560 753cb451b29683799c3de4bf174f308f ""
+  "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/valen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
@@ -254,12 +255,14 @@
   "Images/1d_curtailment_qunatified.png" 1781190437.79082 27937 cc7e4e96e953f300b87d93c33b3bf791 ""
   "Images/1d_curtailment_time_series.png" 1781190437.80672 112109 c66fbee7327354861e82f1f58ec2cacd ""
   "Images/1e_residual_load.png" 1781190437.77652 51957 75954d8fd9b33bb0fb9992d2c1990781 ""
+  "Images/2a_nodal_prices.png" 1781350152.00682 53005 f4a646e5fd7a512d388b0f0e85e8f0a1 ""
+  "Images/2b_price_comparison.png" 1781350152.0155 29788 ffefe72f2d6eb8f62f50a947600e47fb ""
   "Images/TuBerlin_Logo.png" 1781190437.87936 31657 52fa6747300f5217bee35f1e03383ddd ""
-  "Tasks/Task1.tex" 1781190437.93338 12655 1d36c6fccfbb446a99e53f999575c249 ""
-  "Tasks/Task2.tex" 1781190437.91711 969 f71277f6c0a00843d1ac5d9834ddcc64 ""
+  "Tasks/Task1.tex" 1781353620.93825 13051 9522a4d3f6af69fb8df1f45869ce7186 ""
+  "Tasks/Task2.tex" 1781353886.81351 4717 e43906e98bf98d695eb9c7e53a045646 ""
   "c:/Users/valen/Downloads/ES_Group-Project/Energy_Systems/main.tex" 1781190437.75118 4779 3c642c13f3f397e5e803c56150492329 ""
-  "main.aux" 1781191954.36202 3559 0d88f75bf886f9f2be90af63a81598d8 "pdflatex"
-  "main.out" 1781191954.36706 482 87808a09f4dabfc9cbd19488e80a962d "pdflatex"
+  "main.aux" 1781353903.10876 4241 6633da365a943680c6c6e6f29298b479 "pdflatex"
+  "main.out" 1781353903.10876 482 87808a09f4dabfc9cbd19488e80a962d "pdflatex"
   (generated)
   "main.aux"
   "main.log"
